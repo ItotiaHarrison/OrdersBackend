@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'customersAPI',
     'ordersAPI',
     'oauth2_provider',
+    'users',
 ]
 
 #pagination
@@ -98,6 +99,11 @@ DATABASES = {
     }
 }
 
+#set the authentification
+AUTH_USER_MODEL = 'users.User'
+
+#login url
+LOGIN_URL = '/admin/login/'
 
 # Password validation
 # https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators
