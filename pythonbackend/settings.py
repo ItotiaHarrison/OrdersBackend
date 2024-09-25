@@ -42,7 +42,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'customersAPI',
-    'ordersAPI'
+    'ordersAPI',
+    'oauth2_provider',
 ]
 
 #pagination
