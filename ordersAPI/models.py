@@ -1,4 +1,5 @@
 from django.db import models
+from customersAPI.models import Customer
 
 # Create your models here.
 class Order(models.Model):
