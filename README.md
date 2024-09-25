@@ -17,7 +17,7 @@ An API to handle customers and respective orders they make. It enables an authen
 
 ## Technologies Used
 
-- Django 
+- Django 5.1.1
 - Python 3.11.9
 - PostgreSQL
 
