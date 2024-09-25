@@ -12,9 +12,9 @@ jobs:
       postgres:
         image: postgres:12
         env:
-          POSTGRES_DB: customerordersdb
-          POSTGRES_USER: postgres
-          POSTGRES_PASSWORD: Prisca99
+          DB_NAME: customerordersdb
+          DB_USER: postgres
+          DB_PASSWORD: Prisca99
         ports:
           - 5432:5432
     steps:
